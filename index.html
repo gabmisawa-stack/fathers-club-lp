@@ -1,363 +1,333 @@
 <!DOCTYPE html>
-
-<html class="scroll-smooth" lang="ja"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>神戸大学附属中等教育学校 父親の会</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;family=M+PLUS+1p:wght@400;500;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    "colors": {
-                        "inverse-on-surface": "#f1f1ee",
-                        "on-tertiary-fixed-variant": "#4b4733",
-                        "on-primary-fixed": "#241a00",
-                        "on-primary-fixed-variant": "#584400",
-                        "tertiary": "#635f49",
-                        "on-secondary-fixed-variant": "#653e00",
-                        "surface-container-low": "#f4f4f1",
-                        "on-primary-container": "#695200",
-                        "on-secondary-container": "#694000",
-                        "on-tertiary-container": "#595641",
-                        "outline": "#807660",
-                        "surface-dim": "#dadad7",
-                        "surface-container-high": "#e8e8e5",
-                        "secondary-fixed": "#ffddb8",
-                        "surface-bright": "#f9f9f6",
-                        "surface-tint": "#745b00",
-                        "on-surface": "#1a1c1b",
-                        "on-error-container": "#93000a",
-                        "primary-container": "#f5c518",
-                        "surface-container": "#eeeeeb",
-                        "secondary-fixed-dim": "#ffb960",
-                        "surface": "#f9f9f6",
-                        "on-surface-variant": "#4e4633",
-                        "primary-fixed-dim": "#f0c110",
-                        "tertiary-fixed-dim": "#cdc7ad",
-                        "surface-container-lowest": "#ffffff",
-                        "secondary": "#865300",
-                        "surface-variant": "#e2e3e0",
-                        "error-container": "#ffdad6",
-                        "tertiary-container": "#d1cbb1",
-                        "on-error": "#ffffff",
-                        "on-primary": "#ffffff",
-                        "inverse-surface": "#2f312f",
-                        "primary-fixed": "#ffe08b",
-                        "secondary-container": "#fda627",
-                        "primary": "#745b00",
-                        "inverse-primary": "#f0c110",
-                        "on-tertiary": "#ffffff",
-                        "on-secondary-fixed": "#2b1700",
-                        "on-secondary": "#ffffff",
-                        "surface-container-highest": "#e2e3e0",
-                        "on-tertiary-fixed": "#1e1c0b",
-                        "outline-variant": "#d1c5ac",
-                        "tertiary-fixed": "#e9e3c7",
-                        "error": "#ba1a1a",
-                        "background": "#f9f9f6",
-                        "on-background": "#1a1c1b"
-                    },
-                    "borderRadius": {
-                        "DEFAULT": "1rem",
-                        "lg": "2rem",
-                        "xl": "3rem",
-                        "full": "9999px"
-                    },
-                    "fontFamily": {
-                        "headline": ["Plus Jakarta Sans", "M PLUS 1p", "sans-serif"],
-                        "body": ["Be Vietnam Pro", "M PLUS 1p", "sans-serif"],
-                        "label": ["Be Vietnam Pro", "sans-serif"]
-                    }
-                },
+<html class="scroll-smooth" lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>神戸大学附属中等教育学校 父親の会</title>
+    <meta
+      name="description"
+      content="神戸大学附属中等教育学校 父親の会。できる時に、できる事を、できるだけ。学校行事のサポートや懇親会、冬の極寒キャンプなどを通じて、父親同士で交流しています。"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;family=M+PLUS+1p:wght@400;500;700;800&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "ink": "#17150f",
+              "sun": "#f5c518",
+              "sun-soft": "#ffe78f",
+              "camp": "#234036",
+              "leaf": "#5b7a38",
+              "paper": "#fffaf0",
+              "sand": "#f3ead7",
+              "rust": "#9d4f24"
             },
+            borderRadius: {
+              DEFAULT: "1rem",
+              lg: "1.5rem",
+              xl: "2rem",
+              full: "9999px"
+            },
+            fontFamily: {
+              headline: ["Plus Jakarta Sans", "M PLUS 1p", "sans-serif"],
+              body: ["Be Vietnam Pro", "M PLUS 1p", "sans-serif"]
+            }
+          }
         }
+      };
     </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        .glass-nav {
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-        }
-        .golden-hour-gradient {
-            background: linear-gradient(135deg, #745B00 0%, #F5C518 100%);
-        }
-        body { font-family: 'Be Vietnam Pro', 'M PLUS 1p', sans-serif; }
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 24;
+      }
+      body {
+        font-family: "Be Vietnam Pro", "M PLUS 1p", sans-serif;
+        background: #fffaf0;
+      }
+      .photo-shadow {
+        box-shadow: 0 28px 80px rgba(23, 21, 15, 0.28);
+      }
+      .hero-pattern {
+        background-image:
+          radial-gradient(circle at 20% 20%, rgba(245, 197, 24, 0.32), transparent 28%),
+          radial-gradient(circle at 85% 15%, rgba(255, 231, 143, 0.24), transparent 24%),
+          linear-gradient(135deg, rgba(23, 21, 15, 0.82), rgba(35, 64, 54, 0.72));
+      }
     </style>
-<style>
-    body {
-      min-height: max(884px, 100dvh);
-    }
-  </style>
-</head>
-<body class="bg-surface text-on-surface antialiased overflow-x-hidden">
-<!-- TopAppBar -->
-<header class="fixed top-0 w-full z-50 bg-[#F9F9F6]/80 dark:bg-[#1A1C1B]/80 backdrop-blur-xl shadow-sm dark:shadow-none h-16 flex justify-between items-center px-6">
-<div class="flex items-center gap-3">
-<div class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center overflow-hidden">
-<span class="text-white font-bold text-lg">父</span>
-</div>
-<span class="text-xl font-extrabold text-[#745B00] dark:text-[#F5C518] tracking-tighter font-headline">Kobe Univ SS Fathers</span>
-</div>
-<button class="text-[#745B00] dark:text-[#F5C518] hover:opacity-80 transition-opacity scale-95 duration-200 transition-transform">
-<span class="material-symbols-outlined">menu</span>
-</button>
-</header>
-<main class="pt-16 pb-24">
-<!-- Hero Section -->
-<section class="relative min-h-[751px] flex flex-col items-center justify-center px-6 text-center overflow-hidden">
-<div class="absolute inset-0 golden-hour-gradient -z-10 opacity-90"></div>
-<div class="absolute inset-0 bg-gradient-to-b from-[#745B00]/20 to-[#F5C518]/10 -z-20"></div>
-<div class="bg-surface-container-lowest px-4 py-1.5 rounded-full mb-6 shadow-sm">
-<span class="text-primary font-bold text-sm tracking-widest font-headline">神戸大学附属中等教育学校</span>
-</div>
-<h1 class="text-6xl md:text-8xl font-black text-white mb-6 font-headline tracking-tighter leading-tight drop-shadow-md">
-                父親の会
-            </h1>
-<p class="text-white/90 text-lg md:text-xl font-medium leading-relaxed max-w-xs md:max-w-md mx-auto">
-                家族でも職場でもない<br/>
-<span class="text-primary-container font-bold">「第３の居場所」</span>へようこそ
+  </head>
+  <body class="bg-paper text-ink antialiased overflow-x-hidden">
+    <header class="fixed top-0 z-50 w-full border-b border-white/20 bg-paper/90 px-4 backdrop-blur-xl md:px-8">
+      <div class="mx-auto flex h-16 max-w-6xl items-center justify-between">
+        <a class="flex min-w-0 items-center gap-3" href="#top" aria-label="父親の会 トップへ">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-ink text-xl font-black text-sun">父</span>
+          <span class="truncate text-base font-black tracking-tight text-ink md:text-xl">神戸大学附属中等教育学校 父親の会</span>
+        </a>
+        <nav class="hidden items-center gap-6 text-sm font-bold text-ink/70 md:flex" aria-label="主要ナビゲーション">
+          <a class="hover:text-ink" href="#activities">活動</a>
+          <a class="hover:text-ink" href="#camp">極寒キャンプ</a>
+          <a class="hover:text-ink" href="#voices">参加者の声</a>
+          <a class="rounded-full bg-ink px-5 py-2 text-white hover:bg-camp" href="#join">参加する</a>
+        </nav>
+        <a class="rounded-full bg-ink px-4 py-2 text-sm font-bold text-white md:hidden" href="#join">Join</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="relative flex min-h-[760px] items-center overflow-hidden pt-16 text-white">
+        <img class="absolute inset-0 h-full w-full object-cover" src="images/gokkan-camp.jpg" alt="極寒キャンプで集まる父親の会のメンバー" />
+        <div class="hero-pattern absolute inset-0"></div>
+        <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-paper to-transparent"></div>
+        <div class="relative mx-auto grid w-full max-w-6xl gap-10 px-5 py-20 md:grid-cols-[1.1fr_0.9fr] md:px-8">
+          <div class="flex flex-col justify-center">
+            <p class="mb-5 inline-flex w-fit items-center gap-2 rounded-full bg-white/[0.14] px-4 py-2 text-xs font-black tracking-[0.22em] text-sun backdrop-blur">
+              KOBE UNIV SS FATHERS
             </p>
-<div class="mt-12 flex flex-col gap-4 w-full max-w-[280px]">
-<a class="bg-white text-primary px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:scale-105 transition-transform" href="#join">
-                    仲間に加わる
-                </a>
-</div>
-</section>
-<!-- Motto Banner -->
-<section class="bg-on-surface py-12 px-6 flex flex-col items-center justify-center text-center">
-<span class="text-primary-container text-xs font-bold tracking-[0.2em] mb-4 uppercase">Our Motto</span>
-<h2 class="text-primary-container text-2xl md:text-4xl font-black font-headline tracking-widest leading-loose">
-                できる時に、できる事を、できるだけ
-            </h2>
-</section>
-<!-- ABOUT Section -->
-<section class="py-20 px-6 bg-surface-container-low">
-<div class="max-w-md mx-auto">
-<div class="flex items-center gap-4 mb-8">
-<div class="h-[2px] flex-grow bg-primary-fixed"></div>
-<h2 class="text-primary font-bold text-xl flex-shrink-0">ABOUT US</h2>
-<div class="h-[2px] flex-grow bg-primary-fixed"></div>
-</div>
-<div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm border-l-8 border-primary">
-<h3 class="text-2xl font-black mb-6 leading-snug">
-                        父親同士で<br/>交流してます
-                    </h3>
-<ul class="space-y-6">
-<li class="flex gap-4">
-<span class="material-symbols-outlined text-primary-container fill-current" style="font-variation-settings: 'FILL' 1;">volunteer_activism</span>
-<div>
-<p class="font-bold text-lg">年会費なし</p>
-<p class="text-secondary text-sm">気軽に参加できるコミュニティを目指しています。</p>
-</div>
-</li>
-<li class="flex gap-4">
-<span class="material-symbols-outlined text-primary-container fill-current" style="font-variation-settings: 'FILL' 1;">calendar_month</span>
-<div>
-<p class="font-bold text-lg">不定期開催</p>
-<p class="text-secondary text-sm">主に週末や祝日、仕事の合間に無理なく集まります。</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</section>
-<!-- Photo Grid Section -->
-<section class="py-20 px-6">
-<h2 class="text-center font-black text-3xl mb-12 font-headline">活動の様子</h2>
-<div class="grid grid-cols-2 gap-3 max-w-md mx-auto">
-<!-- Large Top Image -->
-<div class="col-span-2 relative h-64 rounded-lg overflow-hidden group">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="活動後の懇親会" src="images/konshinkai.jpg"/>
-<div class="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/80 to-transparent">
-<p class="text-white font-bold text-sm">活動後の懇親会</p>
-</div>
-</div>
-<!-- Two Smaller Images Below -->
-<div class="relative h-44 rounded-lg overflow-hidden group">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="兎原祭 駄菓子屋ダディ" src="images/toharasai.jpg"/>
-<div class="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/80 to-transparent">
-<p class="text-white font-bold text-xs leading-tight">兎原祭 駄菓子屋ダディ</p>
-</div>
-</div>
-<div class="relative h-44 rounded-lg overflow-hidden group">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="学校環境改善サポート" src="images/kusakari.jpg"/>
-<div class="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black/80 to-transparent">
-<p class="text-white font-bold text-xs leading-tight">学校環境改善サポート</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Activity Cards Section -->
-<section class="py-20 px-6 bg-surface-container-low">
-<h2 class="text-center font-black text-2xl mb-10 font-headline">主な活動内容</h2>
-<div class="grid grid-cols-2 gap-4 max-w-md mx-auto">
-<div class="bg-surface-container-lowest p-5 rounded-lg border-t-4 border-primary shadow-sm">
-<span class="material-symbols-outlined text-secondary mb-3">storefront</span>
-<h4 class="font-bold text-sm mb-1">兎原祭 駄菓子屋ダディ</h4>
-<p class="text-[11px] text-on-surface-variant leading-relaxed">5/15-16開催。父親たちで駄菓子屋を出店します。</p>
-</div>
-<div class="bg-surface-container-lowest p-5 rounded-lg border-t-4 border-primary shadow-sm">
-<span class="material-symbols-outlined text-secondary mb-3">handyman</span>
-<h4 class="font-bold text-sm mb-1">学校環境改善</h4>
-<p class="text-[11px] text-on-surface-variant leading-relaxed">ベンチの補修やペンキ塗りなどDIY活動です。</p>
-</div>
-<div class="bg-surface-container-lowest p-5 rounded-lg border-t-4 border-primary shadow-sm">
-<span class="material-symbols-outlined text-secondary mb-3">nightlife</span>
-<h4 class="font-bold text-sm mb-1">懇親会</h4>
-<p class="text-[11px] text-on-surface-variant leading-relaxed">活動後の打ち上げや学年を越えた飲み会。</p>
-</div>
-<div class="bg-surface-container-lowest p-5 rounded-lg border-t-4 border-primary shadow-sm">
-<span class="material-symbols-outlined text-secondary mb-3">celebration</span>
-<h4 class="font-bold text-sm mb-1">イベント</h4>
-<p class="text-[11px] text-on-surface-variant leading-relaxed">ハイキングやBBQなど家族ぐるみの交流も。</p>
-</div>
-</div>
-</section>
-<!-- Testimonials Section -->
-<section class="py-20 px-6 bg-tertiary-container/30">
-<h2 class="text-center font-black text-2xl mb-12 font-headline">お父さんたちの声</h2>
-<div class="space-y-6 max-w-md mx-auto">
-<!-- Testimonial 1 -->
-<div class="bg-surface-container-lowest p-6 rounded-lg border-l-4 border-secondary-container shadow-sm relative overflow-hidden">
-<span class="material-symbols-outlined absolute top-2 right-2 text-primary/10 text-6xl">format_quote</span>
-<p class="text-sm italic mb-4 relative z-10">「入学2年目に保護者として初参加した兎原祭にて、父親の会のブースで一緒に店番をしたのがきっかけでした。普段の生活では絶対に出会わないタイプの方々と交流でき、笑いが絶えない時間を過ごしています。初年度から参加できていればよかった！」</p>
-<div class="flex items-center gap-3">
-<div class="w-8 h-8 rounded-full bg-surface-container"></div>
-<span class="text-xs font-bold text-secondary">16回生父 Mさん</span>
-</div>
-</div>
-<!-- Testimonial 2 -->
-<div class="bg-surface-container-lowest p-6 rounded-lg border-l-4 border-secondary-container shadow-sm relative overflow-hidden">
-<span class="material-symbols-outlined absolute top-2 right-2 text-primary/10 text-6xl">format_quote</span>
-<p class="text-sm italic mb-4 relative z-10">「13回生在校生の父です。入学時から関わっていますが、いつも楽しく活動させてもらっています。兎原祭の出店準備、草刈りなどの環境改善活動、打ち上げの懇親会…どれも充実しています。ご都合の合う時だけの参加も大歓迎です。」</p>
-<div class="flex items-center gap-3">
-<div class="w-8 h-8 rounded-full bg-surface-container"></div>
-<span class="text-xs font-bold text-secondary">13回生父 Hさん</span>
-</div>
-</div>
-<!-- Testimonial 3 -->
-<div class="bg-surface-container-lowest p-6 rounded-lg border-l-4 border-secondary-container shadow-sm relative overflow-hidden">
-<span class="material-symbols-outlined absolute top-2 right-2 text-primary/10 text-6xl">format_quote</span>
-<p class="text-sm italic mb-4 relative z-10">「2025年度卒業（12回生）の父です。兎原祭や学校行事のサポートを通じて、他のお父さん方と自然に交流が生まれました。子どもの教育にも関わる機会が増え、とても良い経験になりました。」</p>
-<div class="flex items-center gap-3">
-<div class="w-8 h-8 rounded-full bg-surface-container"></div>
-<span class="text-xs font-bold text-secondary">12回生父 Kさん</span>
-</div>
-</div>
-<!-- Testimonial 4 -->
-<div class="bg-surface-container-lowest p-6 rounded-lg border-l-4 border-secondary-container shadow-sm relative overflow-hidden">
-<span class="material-symbols-outlined absolute top-2 right-2 text-primary/10 text-6xl">format_quote</span>
-<p class="text-sm italic mb-4 relative z-10">「12回生（25年度卒業）の保護者です。草刈りやテニスコートの整備などに参加するうちに、学年を越えた父親のつながりができました。趣味の幅が広がりました。」</p>
-<div class="flex items-center gap-3">
-<div class="w-8 h-8 rounded-full bg-surface-container"></div>
-<span class="text-xs font-bold text-secondary">12回生父 Mさん</span>
-</div>
-</div>
-</div>
-</section>
-<!-- JOIN US Section -->
-<section class="py-24 px-6 bg-on-surface relative overflow-hidden text-white" id="join">
-<div class="max-w-md mx-auto relative z-10">
-<h2 class="text-primary-container font-black text-3xl mb-4 text-center font-headline">JOIN US</h2>
-<p class="text-center text-sm text-surface-variant mb-10">入会・活動情報の受け取りはメールでご連絡ください</p>
-<div class="rounded-xl p-7 text-center border border-white/10 shadow-sm" style="background:rgba(255,255,255,0.05);">
-<span class="material-symbols-outlined text-primary-container text-4xl mb-4">mail</span>
-<h3 class="text-xl font-black mb-4 font-headline">父親の会に参加する</h3>
-<p class="text-sm text-surface-variant leading-relaxed mb-6">
-メール本文に「お子さんが何回生か」と「保護者さまのお名前」をご記入ください。
-</p>
-<div class="bg-white/10 rounded-lg p-4 text-left text-sm leading-relaxed mb-6">
-<p><span class="font-bold text-primary-container">宛先：</span>gabmisawa@gmail.com</p>
-<p><span class="font-bold text-primary-container">本文：</span>お子さんの回生／保護者さまのお名前</p>
-</div>
-<div class="grid gap-3">
-<a class="inline-flex items-center justify-center gap-2 bg-primary-container text-on-primary-fixed px-6 py-4 rounded-xl font-bold text-base shadow-lg hover:scale-105 transition-transform w-full" href="mailto:gabmisawa@gmail.com?subject=%E7%88%B6%E8%A6%AA%E3%81%AE%E4%BC%9A%E3%81%B8%E3%81%AE%E5%8F%82%E5%8A%A0%E5%B8%8C%E6%9C%9B&body=%E3%81%8A%E5%AD%90%E3%81%95%E3%82%93%E3%81%AE%E5%9B%9E%E7%94%9F%EF%BC%9A%0A%E4%BF%9D%E8%AD%B7%E8%80%85%E3%81%95%E3%81%BE%E3%81%AE%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%0A%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%9A">
-<span class="material-symbols-outlined">send</span>
-メールアプリを開く
-</a>
-<a class="inline-flex items-center justify-center gap-2 bg-white/10 text-white px-6 py-4 rounded-xl font-bold text-base border border-white/10 hover:bg-white/15 transition-colors w-full" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=gabmisawa%40gmail.com&amp;su=%E7%88%B6%E8%A6%AA%E3%81%AE%E4%BC%9A%E3%81%B8%E3%81%AE%E5%8F%82%E5%8A%A0%E5%B8%8C%E6%9C%9B&amp;body=%E3%81%8A%E5%AD%90%E3%81%95%E3%82%93%E3%81%AE%E5%9B%9E%E7%94%9F%EF%BC%9A%0A%E4%BF%9D%E8%AD%B7%E8%80%85%E3%81%95%E3%81%BE%E3%81%AE%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%0A%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%9A" target="_blank" rel="noopener">
-<span class="material-symbols-outlined">open_in_new</span>
-Gmailで開く
-</a>
-<button class="inline-flex items-center justify-center gap-2 bg-white/10 text-white px-6 py-4 rounded-xl font-bold text-base border border-white/10 hover:bg-white/15 transition-colors w-full" type="button" onclick="navigator.clipboard.writeText('gabmisawa@gmail.com'); this.querySelector('[data-copy-label]').textContent='コピーしました'; setTimeout(() => this.querySelector('[data-copy-label]').textContent='メールアドレスをコピー', 1800);">
-<span class="material-symbols-outlined">content_copy</span>
-<span data-copy-label>メールアドレスをコピー</span>
-</button>
-</div>
-<p class="text-xs text-surface-variant leading-relaxed mt-4">
-ボタンが開かない場合は、メールアドレスをコピーしてお使いのメールからお送りください。
-</p>
-</div>
-</div>
-<!-- Decorative circle -->
-<div class="absolute -bottom-20 -right-20 w-64 h-64 bg-primary/20 rounded-full blur-3xl"></div>
-</section>
-<!-- INFO Section -->
-<section class="py-20 px-6">
-<div class="max-w-md mx-auto">
-<h2 class="text-2xl font-black mb-8 font-headline border-b-2 border-primary-fixed pb-2">INFORMATION</h2>
-<dl class="space-y-6">
-<div class="grid grid-cols-3 gap-4">
-<dt class="text-primary font-bold text-sm">活動日</dt>
-<dd class="col-span-2 text-sm">週末・祝日（不定期）</dd>
-</div>
-<div class="grid grid-cols-3 gap-4">
-<dt class="text-primary font-bold text-sm">場所</dt>
-<dd class="col-span-2 text-sm">神戸大学附属中等教育学校、または神戸市内の会場</dd>
-</div>
-<div class="grid grid-cols-3 gap-4">
-<dt class="text-primary font-bold text-sm">費用</dt>
-<dd class="col-span-2 text-sm">年会費無料（各イベントの参加費のみ実費）</dd>
-</div>
-<div class="grid grid-cols-3 gap-4">
-<dt class="text-primary font-bold text-sm">お問い合わせ</dt>
-<dd class="col-span-2 text-sm">
-                            代表：三澤<br/>
-<a class="text-secondary font-medium underline decoration-primary-container" href="mailto:gabmisawa@gmail.com">gabmisawa@gmail.com</a>
-</dd>
-</div>
-</dl>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="w-full py-12 px-8 bg-[#F4F4F1] dark:bg-[#1A1C1B] flex flex-col items-center text-center space-y-6 pb-24">
-<div class="text-lg font-bold text-[#745B00] dark:text-[#F5C518]">
-            神戸大学附属中等教育学校 父親の会
+            <h1 class="font-headline text-6xl font-black leading-[0.95] tracking-tight md:text-8xl">
+              父親の会
+            </h1>
+            <p class="mt-6 max-w-2xl text-xl font-bold leading-relaxed text-white md:text-2xl">
+              家族でも職場でもない、学校をきっかけにした「第3の居場所」。
+            </p>
+            <p class="mt-4 max-w-xl text-base leading-8 text-white/90">
+              学校行事のお手伝い、環境改善、懇親会、冬のキャンプ。無理なく、できる時に参加できる父親同士のコミュニティです。
+            </p>
+            <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+              <a class="inline-flex items-center justify-center gap-2 rounded-full bg-sun px-7 py-4 text-base font-black text-ink shadow-xl shadow-black/20 transition-transform hover:-translate-y-0.5" href="#join">
+                <span class="material-symbols-outlined">person_add</span>
+                仲間に加わる
+              </a>
+              <a class="inline-flex items-center justify-center gap-2 rounded-full border border-white/40 bg-white/10 px-7 py-4 text-base font-black text-white backdrop-blur transition-colors hover:bg-white/[0.18]" href="#camp">
+                <span class="material-symbols-outlined">outdoor_grill</span>
+                極寒キャンプを見る
+              </a>
+            </div>
+          </div>
+          <div class="grid content-end gap-4 md:pt-28">
+            <div class="rounded-xl border border-white/25 bg-white/[0.14] p-5 backdrop-blur-xl">
+              <p class="text-xs font-black uppercase tracking-[0.22em] text-sun">Our Motto</p>
+              <p class="mt-3 text-2xl font-black leading-relaxed">できる時に、できる事を、できるだけ</p>
+            </div>
+            <div class="grid grid-cols-3 gap-3">
+              <div class="rounded-lg bg-white/90 p-4 text-ink">
+                <p class="text-2xl font-black">0円</p>
+                <p class="mt-1 text-xs font-bold text-ink/60">年会費なし</p>
+              </div>
+              <div class="rounded-lg bg-white/90 p-4 text-ink">
+                <p class="text-2xl font-black">週末</p>
+                <p class="mt-1 text-xs font-bold text-ink/60">不定期開催</p>
+              </div>
+              <div class="rounded-lg bg-white/90 p-4 text-ink">
+                <p class="text-2xl font-black">12月</p>
+                <p class="mt-1 text-xs font-bold text-ink/60">冬キャンプ</p>
+              </div>
+            </div>
+          </div>
         </div>
-<nav class="flex flex-wrap justify-center gap-x-6 gap-y-2">
-<a class="text-[#865300] hover:text-[#745B00] transition-colors text-sm font-medium" href="#">Privacy Policy</a>
-<a class="text-[#865300] hover:text-[#745B00] transition-colors text-sm font-medium" href="#">Contact Us</a>
-<a class="text-[#865300] hover:text-[#745B00] transition-colors text-sm font-medium" href="#">School Website</a>
-</nav>
-<p class="font-plus-jakarta text-sm leading-relaxed text-[#865300] opacity-80 uppercase tracking-widest">
-            © 2026 神戸大学附属中等教育学校 父親の会
-        </p>
-</footer>
-<!-- BottomNavBar (Mobile) -->
-<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-[#F9F9F6]/80 dark:bg-[#1A1C1B]/80 backdrop-blur-xl shadow-[0_-4px_24px_rgba(116,91,0,0.06)] rounded-t-3xl">
-<a class="flex flex-col items-center justify-center bg-gradient-to-br from-[#745B00] to-[#F5C518] text-white rounded-full p-2.5 shadow-lg scale-105 duration-300 transition-all ease-out" href="#">
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
-<span class="font-plus-jakarta text-[10px] font-medium uppercase tracking-widest mt-0.5">Home</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#865300] dark:text-[#D1C5AC] p-2 hover:text-[#745B00] transition-all" href="#">
-<span class="material-symbols-outlined">diversity_3</span>
-<span class="font-plus-jakarta text-[10px] font-medium uppercase tracking-widest mt-0.5">About</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#865300] dark:text-[#D1C5AC] p-2 hover:text-[#745B00] transition-all" href="#">
-<span class="material-symbols-outlined">event</span>
-<span class="font-plus-jakarta text-[10px] font-medium uppercase tracking-widest mt-0.5">Activities</span>
-</a>
-<a class="flex flex-col items-center justify-center text-[#865300] dark:text-[#D1C5AC] p-2 hover:text-[#745B00] transition-all" href="#join">
-<span class="material-symbols-outlined">person_add</span>
-<span class="font-plus-jakarta text-[10px] font-medium uppercase tracking-widest mt-0.5">Join</span>
-</a>
-</nav>
-</body></html>
+      </section>
+
+      <section class="bg-paper px-5 py-20 md:px-8 md:py-24">
+        <div class="mx-auto grid max-w-6xl gap-10 md:grid-cols-[0.85fr_1.15fr] md:items-center">
+          <div>
+            <p class="text-sm font-black uppercase tracking-[0.24em] text-rust">About Us</p>
+            <h2 class="mt-4 font-headline text-4xl font-black leading-tight md:text-5xl">父親同士で、ゆるく楽しく。</h2>
+            <p class="mt-5 text-base leading-8 text-ink/70">
+              父親の会は、神戸大学附属中等教育学校に関わるお父さんたちの集まりです。参加できる活動だけで大丈夫。学校との関わり方も、父親同士の距離感も、ちょうどよく自然体です。
+            </p>
+          </div>
+          <div class="grid gap-4 sm:grid-cols-2">
+            <img class="h-72 w-full rounded-xl object-cover photo-shadow sm:mt-10" src="images/toharasai.jpg" alt="兎原祭で駄菓子屋ダディを出店する様子" />
+            <img class="h-72 w-full rounded-xl object-cover photo-shadow" src="images/kusakari.jpg" alt="学校環境改善サポートで集まったメンバー" />
+          </div>
+        </div>
+      </section>
+
+      <section id="activities" class="bg-sand px-5 py-20 md:px-8 md:py-24">
+        <div class="mx-auto max-w-6xl">
+          <div class="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+            <div>
+              <p class="text-sm font-black uppercase tracking-[0.24em] text-rust">Activities</p>
+              <h2 class="mt-4 font-headline text-4xl font-black md:text-5xl">主な活動</h2>
+            </div>
+            <p class="max-w-xl text-base leading-8 text-ink/70">
+              行事の手伝いから、学校環境の改善、懇親会、キャンプまで。大人が楽しんでいる姿も、学校の空気を少し明るくします。
+            </p>
+          </div>
+          <div class="grid gap-5 md:grid-cols-4">
+            <article class="overflow-hidden rounded-xl bg-paper shadow-sm">
+              <img class="h-52 w-full object-cover" src="images/gokkan-camp.jpg" alt="極寒キャンプの鍋を囲む様子" />
+              <div class="p-5">
+                <span class="material-symbols-outlined text-rust">camping</span>
+                <h3 class="mt-3 text-xl font-black">極寒キャンプ</h3>
+                <p class="mt-3 text-sm leading-7 text-ink/70">毎年12月開催。寒いけれど、虫がいないのが最高です。</p>
+              </div>
+            </article>
+            <article class="overflow-hidden rounded-xl bg-paper shadow-sm">
+              <img class="h-52 w-full object-cover" src="images/toharasai.jpg" alt="兎原祭の出店で生徒に対応する様子" />
+              <div class="p-5">
+                <span class="material-symbols-outlined text-rust">storefront</span>
+                <h3 class="mt-3 text-xl font-black">兎原祭</h3>
+                <p class="mt-3 text-sm leading-7 text-ink/70">駄菓子屋ダディなど、学校行事を父親たちでサポートします。</p>
+              </div>
+            </article>
+            <article class="overflow-hidden rounded-xl bg-paper shadow-sm">
+              <img class="h-52 w-full object-cover" src="images/kusakari.jpg" alt="学校環境改善活動に参加したメンバー" />
+              <div class="p-5">
+                <span class="material-symbols-outlined text-rust">handyman</span>
+                <h3 class="mt-3 text-xl font-black">環境改善</h3>
+                <p class="mt-3 text-sm leading-7 text-ink/70">草刈り、整備、ペンキ塗りなど、できる範囲で学校を支えます。</p>
+              </div>
+            </article>
+            <article class="overflow-hidden rounded-xl bg-paper shadow-sm">
+              <img class="h-52 w-full object-cover" src="images/konshinkai.jpg" alt="活動後の懇親会で交流する様子" />
+              <div class="p-5">
+                <span class="material-symbols-outlined text-rust">nightlife</span>
+                <h3 class="mt-3 text-xl font-black">懇親会</h3>
+                <p class="mt-3 text-sm leading-7 text-ink/70">学年も仕事も越えて、気楽につながれる時間があります。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="camp" class="bg-camp px-5 py-20 text-white md:px-8 md:py-24">
+        <div class="mx-auto grid max-w-6xl gap-10 md:grid-cols-[1.1fr_0.9fr] md:items-center">
+          <div class="relative">
+            <img class="h-[460px] w-full rounded-xl object-cover photo-shadow" src="images/gokkan-camp.jpg" alt="極寒キャンプで鍋を囲んで笑う父親の会のメンバー" />
+            <div class="absolute left-5 top-5 rounded-full bg-sun px-4 py-2 text-sm font-black text-ink">毎年12月</div>
+          </div>
+          <div>
+            <p class="text-sm font-black uppercase tracking-[0.24em] text-sun">Winter Camp</p>
+            <h2 class="mt-4 font-headline text-4xl font-black leading-tight md:text-5xl">寒いのに、なぜか毎年楽しみになる極寒キャンプ。</h2>
+            <p class="mt-5 text-base leading-8 text-white/80">
+              冬のキャンプは虫がいないのが最高です。キャンプのプロのOBが来てくださるので、火の扱い方や道具の使い方など、自然とキャンプスキルも上がります。
+            </p>
+            <div class="mt-6 grid gap-3">
+              <div class="flex gap-3 rounded-lg bg-white/10 p-4">
+                <span class="material-symbols-outlined text-sun">local_fire_department</span>
+                <p class="text-sm font-bold leading-7">鍋を囲みながら、寒さごと楽しむ夜。</p>
+              </div>
+              <div class="flex gap-3 rounded-lg bg-white/10 p-4">
+                <span class="material-symbols-outlined text-sun">school</span>
+                <p class="text-sm font-bold leading-7">OBの知恵で、キャンプの段取りやスキルも学べます。</p>
+              </div>
+              <div class="flex gap-3 rounded-lg bg-white/10 p-4">
+                <span class="material-symbols-outlined text-sun">bedtime</span>
+                <p class="text-sm font-bold leading-7">夜は実はホットカーペットでぬくぬくと眠れます。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="voices" class="bg-paper px-5 py-20 md:px-8 md:py-24">
+        <div class="mx-auto max-w-6xl">
+          <div class="mb-10 text-center">
+            <p class="text-sm font-black uppercase tracking-[0.24em] text-rust">Voices</p>
+            <h2 class="mt-4 font-headline text-4xl font-black md:text-5xl">参加者の声</h2>
+          </div>
+          <div class="grid gap-5 md:grid-cols-3">
+            <article class="rounded-xl bg-sand p-6 shadow-sm">
+              <span class="material-symbols-outlined text-5xl text-rust/20">format_quote</span>
+              <p class="mt-2 text-sm leading-8 text-ink/80">娘が2年生になって初めて、父親の会の飲み会やキャンプに参加しました。家族や職場の関係とも違う、第3の居場所ができたと感じています。</p>
+              <p class="mt-5 text-xs font-black text-rust">14回生Mさん</p>
+            </article>
+            <article class="rounded-xl bg-sand p-6 shadow-sm">
+              <span class="material-symbols-outlined text-5xl text-rust/20">format_quote</span>
+              <p class="mt-2 text-sm leading-8 text-ink/80">入学2年目に父親の会のブースで一緒に店番をしたのがきっかけでした。普段は出会わない方々と交流でき、笑いが絶えない時間です。</p>
+              <p class="mt-5 text-xs font-black text-rust">16回生父 Mさん</p>
+            </article>
+            <article class="rounded-xl bg-sand p-6 shadow-sm">
+              <span class="material-symbols-outlined text-5xl text-rust/20">format_quote</span>
+              <p class="mt-2 text-sm leading-8 text-ink/80">兎原祭の出店準備、草刈りなどの環境改善活動、打ち上げの懇親会。どれも充実しています。都合の合う時だけの参加も大歓迎です。</p>
+              <p class="mt-5 text-xs font-black text-rust">13回生父 Hさん</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="join" class="relative overflow-hidden bg-ink px-5 py-20 text-white md:px-8 md:py-24">
+        <div class="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-sun/20 blur-3xl"></div>
+        <div class="mx-auto grid max-w-6xl gap-10 md:grid-cols-[0.85fr_1.15fr] md:items-center">
+          <div>
+            <p class="text-sm font-black uppercase tracking-[0.24em] text-sun">Join Us</p>
+            <h2 class="mt-4 font-headline text-4xl font-black leading-tight md:text-5xl">参加したい方は、メールでご連絡ください。</h2>
+            <p class="mt-5 text-base leading-8 text-white/75">
+              メール本文に「お子さんが何回生か」と「保護者さまのお名前」をご記入ください。まずは話を聞いてみたい、少しだけ手伝えるかも、くらいでも大丈夫です。
+            </p>
+          </div>
+          <div class="rounded-xl border border-white/10 bg-white/10 p-6 shadow-2xl shadow-black/20 backdrop-blur">
+            <div class="rounded-lg bg-white/10 p-4 text-sm leading-relaxed">
+              <p><span class="font-black text-sun">宛先：</span>gabmisawa@gmail.com</p>
+              <p><span class="font-black text-sun">本文：</span>お子さんの回生／保護者さまのお名前</p>
+            </div>
+            <div class="mt-5 grid gap-3">
+              <a class="inline-flex items-center justify-center gap-2 rounded-xl bg-sun px-6 py-4 text-base font-black text-ink shadow-lg transition-transform hover:-translate-y-0.5" href="mailto:gabmisawa@gmail.com?subject=%E7%88%B6%E8%A6%AA%E3%81%AE%E4%BC%9A%E3%81%B8%E3%81%AE%E5%8F%82%E5%8A%A0%E5%B8%8C%E6%9C%9B&amp;body=%E3%81%8A%E5%AD%90%E3%81%95%E3%82%93%E3%81%AE%E5%9B%9E%E7%94%9F%EF%BC%9A%0A%E4%BF%9D%E8%AD%B7%E8%80%85%E3%81%95%E3%81%BE%E3%81%AE%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%0A%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%9A">
+                <span class="material-symbols-outlined">send</span>
+                メールアプリを開く
+              </a>
+              <a class="inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/10 px-6 py-4 text-base font-black text-white transition-colors hover:bg-white/15" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=gabmisawa%40gmail.com&amp;su=%E7%88%B6%E8%A6%AA%E3%81%AE%E4%BC%9A%E3%81%B8%E3%81%AE%E5%8F%82%E5%8A%A0%E5%B8%8C%E6%9C%9B&amp;body=%E3%81%8A%E5%AD%90%E3%81%95%E3%82%93%E3%81%AE%E5%9B%9E%E7%94%9F%EF%BC%9A%0A%E4%BF%9D%E8%AD%B7%E8%80%85%E3%81%95%E3%81%BE%E3%81%AE%E3%81%8A%E5%90%8D%E5%89%8D%EF%BC%9A%0A%0A%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%EF%BC%9A" target="_blank" rel="noopener">
+                <span class="material-symbols-outlined">open_in_new</span>
+                Gmailで開く
+              </a>
+              <button class="inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/10 px-6 py-4 text-base font-black text-white transition-colors hover:bg-white/15" type="button" onclick="navigator.clipboard.writeText('gabmisawa@gmail.com'); this.querySelector('[data-copy-label]').textContent='コピーしました'; setTimeout(() => this.querySelector('[data-copy-label]').textContent='メールアドレスをコピー', 1800);">
+                <span class="material-symbols-outlined">content_copy</span>
+                <span data-copy-label>メールアドレスをコピー</span>
+              </button>
+            </div>
+            <p class="mt-4 text-xs leading-6 text-white/60">ボタンが開かない場合は、メールアドレスをコピーしてお使いのメールからお送りください。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-paper px-5 py-14 md:px-8">
+        <div class="mx-auto grid max-w-6xl gap-8 md:grid-cols-4">
+          <div>
+            <p class="text-xs font-black uppercase tracking-[0.2em] text-rust">Schedule</p>
+            <p class="mt-2 font-bold">週末・祝日を中心に不定期開催</p>
+          </div>
+          <div>
+            <p class="text-xs font-black uppercase tracking-[0.2em] text-rust">Place</p>
+            <p class="mt-2 font-bold">神戸大学附属中等教育学校、または神戸市内</p>
+          </div>
+          <div>
+            <p class="text-xs font-black uppercase tracking-[0.2em] text-rust">Fee</p>
+            <p class="mt-2 font-bold">年会費無料。イベント参加費のみ実費</p>
+          </div>
+          <div>
+            <p class="text-xs font-black uppercase tracking-[0.2em] text-rust">Contact</p>
+            <p class="mt-2 font-bold">代表：三澤</p>
+            <a class="mt-1 inline-block font-bold text-rust underline" href="mailto:gabmisawa@gmail.com">gabmisawa@gmail.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-sand px-5 py-10 text-center md:px-8">
+      <p class="text-lg font-black">神戸大学附属中等教育学校 父親の会</p>
+      <p class="mt-2 text-sm font-bold text-ink/60">© 2026 Kobe Univ SS Fathers</p>
+    </footer>
+
+    <nav class="fixed bottom-0 left-0 z-50 flex w-full justify-around rounded-t-3xl bg-paper/90 px-4 pb-6 pt-3 shadow-[0_-4px_24px_rgba(23,21,15,0.08)] backdrop-blur-xl md:hidden">
+      <a class="flex flex-col items-center justify-center rounded-full bg-ink p-2.5 text-white shadow-lg" href="#top">
+        <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+        <span class="mt-0.5 text-[10px] font-bold uppercase tracking-widest">Home</span>
+      </a>
+      <a class="flex flex-col items-center justify-center p-2 text-rust" href="#activities">
+        <span class="material-symbols-outlined">event</span>
+        <span class="mt-0.5 text-[10px] font-bold uppercase tracking-widest">Activities</span>
+      </a>
+      <a class="flex flex-col items-center justify-center p-2 text-rust" href="#camp">
+        <span class="material-symbols-outlined">camping</span>
+        <span class="mt-0.5 text-[10px] font-bold uppercase tracking-widest">Camp</span>
+      </a>
+      <a class="flex flex-col items-center justify-center p-2 text-rust" href="#join">
+        <span class="material-symbols-outlined">person_add</span>
+        <span class="mt-0.5 text-[10px] font-bold uppercase tracking-widest">Join</span>
+      </a>
+    </nav>
+  </body>
+</html>
